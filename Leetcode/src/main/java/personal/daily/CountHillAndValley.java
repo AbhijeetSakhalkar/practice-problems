@@ -1,6 +1,4 @@
-package org.daily;
-
-import java.util.Arrays;
+package personal.daily;
 
 public class CountHillAndValley {
 

@@ -1,6 +1,6 @@
 package tmp.practice;
 
-public class Test {
+public class NumberToWords {
 
     private static final String[] units = {
             "", "one", "two", "three", "four", "five", "six",
