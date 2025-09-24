@@ -1,4 +1,4 @@
-package personal.tuf.dp;
+package personal.other.dp;
 
 // https://leetcode.com/problems/climbing-stairs/description/
 public class ClimbingStairs {

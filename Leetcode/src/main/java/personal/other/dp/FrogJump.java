@@ -1,4 +1,4 @@
-package personal.tuf.dp;
+package personal.other.dp;
 
 
 import java.util.Arrays;

@@ -1,4 +1,4 @@
-package personal.tuf.dp;
+package personal.other.dp;
 
 // https://leetcode.com/problems/house-robber-ii/description/
 public class HouseRobber {

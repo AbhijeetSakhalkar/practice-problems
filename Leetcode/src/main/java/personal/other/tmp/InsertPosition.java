@@ -1,4 +1,4 @@
-package personal.other;
+package personal.other.tmp;
 
 // https://leetcode.com/problems/search-insert-position/description/?envType=problem-list-v2&envId=array
 public class InsertPosition {

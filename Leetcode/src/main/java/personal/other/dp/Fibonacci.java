@@ -1,6 +1,4 @@
-package personal.tuf.dp;
-
-import java.util.Arrays;
+package personal.other.dp;
 
 public class Fibonacci {
     public static void main(String[] args) {
