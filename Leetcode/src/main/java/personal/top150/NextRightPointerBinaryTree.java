@@ -6,23 +6,23 @@ import java.util.List;
 import java.util.Map;
 
 public class NextRightPointerBinaryTree {
-    public Node connect(Node root) {
+    public TNode connect(TNode root) {
         int height = height(root);
-        Map<Integer, List<Node>> map = new HashMap<>();
+        Map<Integer, List<TNode>> map = new HashMap<>();
         preOrder(root, 0, map);
         for(int i =0; i < height; i++) {
-            List<Node> nodes = map.get(i);
+            List<TNode> nodes = map.get(i);
             for (int j = 0 ; j < nodes.size()-1; j++) {
                 nodes.get(j).next = nodes.get(j+1);
             }
         }
         return root;
     }
-    private int height (Node node) {
+    private int height (TNode node) {
         if (node == null) return 0;
         return Math.max(height(node.left), height(node.right)) + 1;
     }
-    private void preOrder(Node node, int level, Map<Integer, List<Node>> map) {
+    private void preOrder(TNode node, int level, Map<Integer, List<TNode>> map) {
         if (node == null) return;
         if (!map.containsKey(level)) {
             map.put(level, new ArrayList<>());
@@ -33,19 +33,19 @@ public class NextRightPointerBinaryTree {
     }
 }
 
-class Node {
+class TNode {
     public int val;
-    public Node left;
-    public Node right;
-    public Node next;
+    public TNode left;
+    public TNode right;
+    public TNode next;
 
-    public Node() {}
+    public TNode() {}
 
-    public Node(int _val) {
+    public TNode(int _val) {
         val = _val;
     }
 
-    public Node(int _val, Node _left, Node _right, Node _next) {
+    public TNode(int _val, TNode _left, TNode _right, TNode _next) {
         val = _val;
         left = _left;
         right = _right;

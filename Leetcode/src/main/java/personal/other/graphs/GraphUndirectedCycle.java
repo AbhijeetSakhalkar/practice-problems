@@ -2,6 +2,7 @@ package personal.other.graphs;
 
 import java.util.ArrayList;
 
+// https://www.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1?page=1&category=Graph&sortBy=submissions
 public class GraphUndirectedCycle {
     public boolean isCycle(int V, int[][] edges) {
         ArrayList<ArrayList<Integer>> adj = convertToAdjacencyList(edges, V);
@@ -10,7 +11,6 @@ public class GraphUndirectedCycle {
             if (! vis[i]) {
                 if (dfs(i, adj, vis, -1)) return true;
             }
-
         }
         return false;
     }
