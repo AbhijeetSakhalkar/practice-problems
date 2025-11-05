@@ -1,4 +1,4 @@
-package personal.dg.arrays;
+package personal.dg.dsa.arrays;
 
 import java.util.HashSet;
 import java.util.Set;

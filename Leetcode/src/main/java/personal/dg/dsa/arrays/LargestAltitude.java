@@ -1,4 +1,4 @@
-package personal.dg.arrays;
+package personal.dg.dsa.arrays;
 
 public class LargestAltitude {
     public static void main(String[] args) {

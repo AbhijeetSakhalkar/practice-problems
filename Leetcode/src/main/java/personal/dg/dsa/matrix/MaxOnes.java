@@ -1,4 +1,4 @@
-package personal.dg.matrix;
+package personal.dg.dsa.matrix;
 
 public class MaxOnes {
     public int[] findMaxOnesRow(int[][] mat) {

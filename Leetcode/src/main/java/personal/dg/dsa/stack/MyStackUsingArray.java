@@ -1,4 +1,4 @@
-package personal.dg.stack;
+package personal.dg.dsa.stack;
 
 
 public class MyStackUsingArray {

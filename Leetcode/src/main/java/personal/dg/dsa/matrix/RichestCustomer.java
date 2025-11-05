@@ -1,4 +1,4 @@
-package personal.dg.matrix;
+package personal.dg.dsa.matrix;
 
 public class RichestCustomer {
     public static void main(String[] args) {
